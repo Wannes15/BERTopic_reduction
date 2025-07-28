@@ -10,7 +10,7 @@ This repository contains the data and a Python notebook to reproduce the results
 
 We evaluate a range of topic reduction strategies applicable to BERTopic, focusing on their effects on coherence, diversity, and downstream usability. The comparative analysis is illustrated in the following figure:
 
-➡️ See `topic reduction techniques.pdf` for a visual summary of the methods compared.
+![Overview of Topic Reduction Techniques](topic_reduction_techniques.png)
 
 This study provides guidance on selecting appropriate reduction methods based on dataset characteristics, performance priorities (e.g., coherence or diversity), and computational constraints.
 
@@ -18,4 +18,4 @@ This study provides guidance on selecting appropriate reduction methods based on
 
 - `BERTopic_reduction.ipynb` – Main notebook containing the code and analysis.
 - `data/` – Folder containing input data used in the experiments.
-- `topic reduction techniques.pdf` – Visual overview of topic reduction methods.
+- `topic reduction techniques.png` – Visual overview of topic reduction methods.
