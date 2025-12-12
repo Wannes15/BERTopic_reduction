@@ -2,6 +2,7 @@
 
 This repository contains the data and a Python notebook to reproduce the results and techniques presented in our paper:  
 **_“A Comparative Analysis of Topic Reduction Techniques for BERTopic”_**
+Authors: Wannes Janssens, Matthias Bogaert and Dirk Van den Poel
 
 ## Abstract
 *BERTopic is a state-of-the-art topic modeling framework that generates topics by clustering contextualized document embeddings. However, its default clustering algorithm, HDBSCAN, often generates an excessive number of topics, which hinders meaningful comparisons or applications in downstream tasks. While different topic reduction methods exist, literature lacks a comparison of these methods and their impact on the quality of the reduced topics. This study offers an in-depth exploration of (1) topic reduction methods for BERTopic, including existing approaches for direct or indirect reduction, and (2) novel techniques that leverage large language models (LLMs), either by using the LLM-generated topic labels to create topic embeddings or by directly prompting the model for identifying overlapping topics. A comparative study of these topic reduction methods is performed, evaluating their performance in terms of coherence and diversity across multiple social media and web datasets. Our findings indicate that indirect topic reduction (e.g., agglomerative clustering) yields more diverse topics, though sometimes at the cost of coherence, compared to direct topic reduction (increasing the minimum cluster size). LLM prompting outperforms agglomerative clustering in both coherence and diversity, though at a higher computational cost. Therefore, we recommend selecting a reduction method based on dataset characteristics, computational resources, and the desired balance between diversity and coherence.*  
@@ -51,5 +52,6 @@ See the [`LICENSE`](LICENSE) file for the full license text, or visit [https://w
 ## Contact
 
 For questions or collaboration opportunities, please contact:
-- **Wannes Janssens**: wannes.janssens@ugent.be
-
+- **Wannes Janssens**: wanjanss.Janssens@UGent.be
+- **Matthias Bogaert**: Matthias.Bogaert@UGent.be
+- **Dirk Van den Poel**: Dirk.VandenPoel@UGent.be
