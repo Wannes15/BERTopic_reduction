@@ -1,7 +1,7 @@
 # A Comparative Analysis of Topic Reduction Techniques for BERTopic
 
 This repository contains the data and a Python notebook to reproduce the results and techniques presented in our paper:  
-**_“A Comparative Analysis of Topic Reduction Techniques for BERTopic”_**
+**_"A Comparative Analysis of Topic Reduction Techniques for BERTopic"_**  
 Authors: Wannes Janssens, Matthias Bogaert and Dirk Van den Poel
 
 ## Abstract
