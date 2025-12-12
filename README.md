@@ -19,3 +19,37 @@ This study provides guidance on selecting appropriate reduction methods based on
 - `BERTopic_reduction.ipynb` – Main notebook containing the code and analysis.
 - `data/` – Folder containing input data used in the experiments.
 - `topic_reduction_techniques.png` – Visual overview of topic reduction methods.
+
+## Citation
+
+If you use this code or methodology in your research, please cite our paper:
+
+```bibtex
+@article{janssens2025comparative,
+  title={A Comparative Analysis of Topic Reduction Techniques for BERTopic},
+  author={Janssens, Wannes and Bogaert, Matthias and Van den Poel, Dirk},
+  journal={IEEE ACCESS},
+  year={2025},
+  volume={13},
+  pages={204087-204103},
+  doi={http://doi.org/10.1109/access.2025.3638956}
+}
+```
+
+## License
+
+This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+
+### Key Points:
+- You may run, study, modify, and distribute the software freely.
+- If you modify this code and deploy it over a network (e.g., web app, API), you must make your modified source code available to users under the same AGPL v3 license.
+
+See the [`LICENSE`](LICENSE) file for the full license text, or visit [https://www.gnu.org/licenses/agpl-3.0.en.html](https://www.gnu.org/licenses/agpl-3.0.en.html).
+
+**Copyright © 2025 Wannes Janssens, Matthias Bogaert, Dirk Van den Poel**
+
+## Contact
+
+For questions or collaboration opportunities, please contact:
+- **Wannes Janssens**: wannes.janssens@ugent.be
+
